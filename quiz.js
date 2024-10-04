@@ -145,7 +145,7 @@ function playAgain() {
 }
 
 function goHome() {
-    window.location.href = "index.html"; // Change this to your home link
+    window.location.href = "index.html";
 }
 
 window.onload = loadQuestion;
