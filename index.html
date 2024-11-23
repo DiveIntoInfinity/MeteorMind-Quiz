@@ -11,19 +11,23 @@
 <body>
     <nav>
         <div class="logo">
-            <div class="logo-wrapper">
-            <img src="logo2.jpg" alt="Logo" class="logo-img"></div>
+            <img src="logo2.jpg" alt="Logo" class="logo-img">
             <span>eteorMind</span>
         </div>
-        <ul class="nav-links">  
+        <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="quiz.html">Quizzes</a></li>
             <li><a href="#">Leaderboard</a></li>
             <li><a href="index.html">Blog</a></li>
             <li><a href="#">About Us</a></li>
         </ul>
-        <a href="#" class="login-btn" id="login-btn">Login</a>
+        <div class="toggler" id="toggler">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </nav>
+    
     
 <section class="main">
         <video autoplay loop muted id="background-video">
@@ -70,7 +74,7 @@
               <button class="launch">Launch!</button>
           </div>
       </div>
-  
+
       <div class="update-card">
           <img src="ap4.jpg" alt="Astronaut">
           <div class="content">
